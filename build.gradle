@@ -8,3 +8,7 @@ version = '1.0.0'
 repositories {
     mavenCentral()
 }
+
+dependencies {
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.18.0'
+}
