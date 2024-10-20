@@ -15,6 +15,5 @@ public record UserHistoryDTO(
         UUID userId,
         String userType,
         String reason,
-        String comment,
         String changedValues
 ) {}
