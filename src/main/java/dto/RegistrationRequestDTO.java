@@ -16,5 +16,7 @@ public record RegistrationRequestDTO(
         String state,
         String passportNumber,
         String phoneNumber,
-        String email
+        String email,
+        String password,
+        String confirmPassword
 ) {}
